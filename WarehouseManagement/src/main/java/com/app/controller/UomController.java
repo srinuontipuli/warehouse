@@ -28,7 +28,7 @@ public class UomController {
 	@Autowired
 	private UomValidator validator;
 
-	@RequestMapping("/register")
+	@RequestMapping("/reg")
 	public String regUom(ModelMap map) {
 		map.addAttribute("uom",new Uom());
 		return "UomRegister";
